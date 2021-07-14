@@ -1,0 +1,80 @@
+/* font style  */
+body{
+    font-family:'Poppins', sans-serif;
+    }
+    /* top bar  */
+    .top-bar{
+        display: flex;
+        background-color: #2D25A0;
+       height: 900px;
+        
+    
+    }
+    .text{
+    font-size: 60px;
+    color: #ffff;
+    padding-left: 156px;
+    padding-top:207px;
+    padding-bottom: 240px;
+    font-weight: bold;
+     
+    }
+    .text p{
+        margin: -20px;
+    }
+    
+    .text a{
+    text-decoration: none;
+    height: 40px;
+    font-size: 0.4em;
+    background-color: #E02C6D;
+    color:white;
+    
+    
+    
+    }
+    .football-pic img{
+        width: 600px;
+        height: 500px;
+        padding-left: 700px;
+        padding-top: 200px;
+        padding-right: 141px;
+        padding-bottom: 70px;
+    }
+    
+    /* players */
+    
+    .player-info{
+        width: 40%;
+        margin: 13px;
+        padding: 15px;
+        box-shadow: 5px 5px 25px -15px gray;
+        position: relative;
+    }
+    .flexible-container{
+        display: flex;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px 10px;
+        padding-left: 10%;
+        height: auto;
+    }
+    .player-name{
+        width: 90%;
+    }
+    
+    /* footer */
+    .footer{
+        text-align: center;
+    }
+    .logo-footer img{
+        width: 20%;
+    }
+    .icon-footer{
+        font-size: 2.2em;
+        color: lightsteelblue;
+    
+    
+    }
+    .icon-footer i{
+        margin: 10px;
+    }
